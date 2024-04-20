@@ -50,27 +50,27 @@ const Intro = () => {
       >
           <Link 
             href='#contact' 
-            className='px-4 py-2 bg-gray-800 text-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-600 outline-none focus:scale-110 active:scale-105'
+            className='px-4 py-2 bg-gray-800 text-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-600 outline-none focus:scale-110 active:scale-105 transition'
           >
-            Contact Me <BsArrowBarRight className='inline-block ml-1' />
+            Contact Me <BsArrowBarRight className='inline-block ml-1 opacity-70' />
           </Link>
           <a 
           href=""
-          className='px-4 py-2 bg-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-100 outline-none focus:scale-110 active:scale-105'
+          className='px-4 py-2 bg-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-100 outline-none focus:scale-110 active:scale-105 transition'
           >
-            Download Resume <HiDownload className='inline-block ml-1' />
+            Download Resume <HiDownload className='inline-block ml-1 opacity-70' />
           </a>
           <a 
             href="https://www.linkedin.com/in/prashaymehta"
             target="_blank"
-            className='px-4 py-3 bg-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-100 outline-none focus:scale-110 active:scale-105'
+            className='px-4 py-3 bg-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-100 outline-none focus:scale-110 active:scale-105 transition'
           >
               <BsLinkedin />
           </a>
           <a 
             href="https://www.github.com/wadesword89"
             target="_blank"
-            className='px-4 py-3 bg-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-100 outline-none focus:scale-110 active:scale-105'
+            className='px-4 py-3 bg-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-100 outline-none focus:scale-110 active:scale-105 transition'
           >
               <FaGithub />
           </a>
