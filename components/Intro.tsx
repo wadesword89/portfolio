@@ -30,6 +30,7 @@ const Intro = () => {
           />
         </motion.div>
       </div>
+
       <motion.p 
         className='mb-10 mt-4 px-4 text-2xl sm:text-xl'
         initial={{ opacity: 0, y: 100 }}
@@ -40,37 +41,36 @@ const Intro = () => {
         I love building web applications and learning new technologies. 
         I am passionate about creating beautiful and functional user interfaces.
       </motion.p>
+
       <motion.div 
         className='flex flex-col justify-center items-center sm:flex-row gap-4'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{
-          duration: 0.8,
-          delay: 0.1,
-          ease: [0, 0.71, 0.2, 1.01]
-        }}
+        transition={{ delay: 0.1}}
       >
           <Link 
             href='#contact' 
-            className='px-4 py-2 bg-gray-800 text-white rounded-full shadow-lg hover:bg-gray-500 transition'
+            className='px-4 py-2 bg-gray-800 text-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-600 outline-none focus:scale-110 active:scale-105'
           >
             Contact Me <BsArrowBarRight className='inline-block ml-1' />
           </Link>
           <a 
           href=""
-          className='px-4 py-2 bg-white rounded-full shadow-lg hover:bg-slate-100 transition'
+          className='px-4 py-2 bg-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-100 outline-none focus:scale-110 active:scale-105'
           >
             Download Resume <HiDownload className='inline-block ml-1' />
           </a>
           <a 
             href="https://www.linkedin.com/in/prashaymehta"
-            className='px-4 py-3 bg-white rounded-full shadow-lg hover:bg-slate-100 transition'
+            target="_blank"
+            className='px-4 py-3 bg-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-100 outline-none focus:scale-110 active:scale-105'
           >
               <BsLinkedin />
           </a>
           <a 
             href="https://www.github.com/wadesword89"
-            className='px-4 py-3 bg-white rounded-full shadow-lg hover:bg-slate-100 transition'
+            target="_blank"
+            className='px-4 py-3 bg-white rounded-full shadow-lg hover:scale-110 hover:bg-gray-100 outline-none focus:scale-110 active:scale-105'
           >
               <FaGithub />
           </a>
