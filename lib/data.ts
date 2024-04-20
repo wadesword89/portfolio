@@ -28,7 +28,7 @@ export const links = [
     name: "Contact",
     hash: "#contact",
   },
-] as const;
+] as const; // as const is used to infer it is a readonly array with readonly elements name and hash
 
 export const experiencesData = [
   {
