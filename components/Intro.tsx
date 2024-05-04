@@ -36,8 +36,8 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold '>Hi, I'm Prashay! 👋🏽</span> <br />
-        I'm a full-stack developer based in San Francisco, CA. 
+        <span className='font-bold '>Hi, I'm Prashay!</span> <br />
+        I'm a full-stack developer based in the San Francisco Bay Area. 
         I love building web applications and learning new technologies. 
         I am passionate about creating beautiful and functional user interfaces.
       </motion.p>
