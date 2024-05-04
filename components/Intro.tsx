@@ -10,6 +10,7 @@ import { HiDownload } from 'react-icons/hi'
 const Intro = () => {
   return (
     <section className='mb-28 max-w-[50rem] text-center sm:mb-0'>
+      {/* Profile Image */}
       <div className='flex justify-center items-center'>
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
@@ -30,18 +31,22 @@ const Intro = () => {
           />
         </motion.div>
       </div>
-
-      <motion.p 
+     
+      {/* Intro Text */}
+      <motion.div 
         className='mb-10 mt-4 px-4 text-2xl sm:text-xl'
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className='font-bold '>Hi, I'm Prashay!</span> <br />
-        I'm a full-stack developer based in the San Francisco Bay Area. 
-        I love building web applications and learning new technologies. 
-        I am passionate about creating beautiful and functional user interfaces.
-      </motion.p>
-
+        <p className='font-bold '>Hi, I'm Prashay!</p> <br />
+        <p>
+          I'm a Software Engineer based in the San Francisco Bay Area.
+          I love building full stack web applications and learning new technologies.
+          I strive to create useful applications with beautiful and functional user interfaces.
+        </p>
+      </motion.div>
+      
+      {/* Contact Links */}
       <motion.div 
         className='flex flex-col justify-center items-center sm:flex-row gap-4'
         initial={{ opacity: 0, y: 100 }}
