@@ -38,7 +38,7 @@ const Intro = () => {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <p className='font-bold '>Hi, I'm Prashay!</p> <br />
+        <p className='font-bold '>Hey, I'm Prashay!</p> <br />
         <p>
           I'm a Software Engineer based in the San Francisco Bay Area.
           I love building full stack web applications and learning new technologies.
